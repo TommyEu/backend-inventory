@@ -2,11 +2,12 @@ package com.project.inventory.service;
 
 import com.project.inventory.model.Income;
 import com.project.inventory.repository.IncomeRepository;
-import jakarta.persistence.criteria.CriteriaBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class IncomeService {
     @Autowired
     IncomeRepository incomeRepository;
