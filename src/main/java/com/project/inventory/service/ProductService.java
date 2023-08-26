@@ -1,5 +1,6 @@
 package com.project.inventory.service;
 
+import com.project.inventory.model.Movement;
 import com.project.inventory.model.Product;
 import com.project.inventory.repository.ProductRepository;
 import org.springframework.stereotype.Service;
@@ -22,5 +23,6 @@ public class ProductService{
     public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
+
 
 }
